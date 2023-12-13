@@ -184,7 +184,7 @@ export default function Home() {
             
             <div className="text-3xl text-800 font-bold mb-4">NeoStore - Cadastro de Fornecedores</div>
 
-            <DataTable value={suppliers} header={dataTableHeader}>
+            <DataTable value={suppliers} header={dataTableHeader} emptyMessage=" ">
                 <Column field="id" header="Id" sortable></Column>
                 <Column field="name" header="Nome" sortable></Column>
                 <Column field="email" header="E-mail" sortable></Column>
